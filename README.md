@@ -1,6 +1,3 @@
-Sure, here's a sample README for your Django project:
-
-```markdown
 # Little Lemon Restaurant Website
 
 Welcome to the Little Lemon Restaurant website project! This web application is designed to showcase the menu and menu items of a local neighborhood bistro. The project is built using the Django framework, providing a dynamic and interactive web experience for visitors.
