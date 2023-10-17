@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block contents %}
+<div class="column">
+  {% if menu %}
+    {% for item in menu %}
+      <a href="{% url 'restaurant:menu_item' item.pk %}">
+        <p>
+          {{ item.name }}:
+          <span class="menu-price"> {{ item.price }}</span>
+        </p>
+      </a>
+    {% endfor %}
+  {% else %}
+    <p>Menu is closed</p>
+  {% endif %}
+</div>
+{% endblock %}
